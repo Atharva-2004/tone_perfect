@@ -29,3 +29,19 @@ It processes an audio signal, detects **note onsets**, converts them into **freq
 1. Happy Birthday song- "multiple_notes/R_fast_c4-c4-d4-c4-f4-e4-c4-c4-d4-c4-g4-f4.wav"
 
    ![output1](outputMulti_1.png)
+
+---
+
+## Polyphony (Multiple Simultaneous Notes)
+
+### Tests on River Flows in You - Yiruma
+
+file path = simultaneous_notes/river_flows_in_you_part1.wav
+
+#### Actual Notes:
+
+![rfiu_p1_notes](rfiu_p1_notes.png)
+
+#### Results:
+
+![top3peak](top3peaks.png)

@@ -24,7 +24,7 @@ onset_times = librosa.frames_to_time(onset_frames, sr=sr)
 S = np.abs(librosa.stft(y))
 
 # Top-N peak note detection
-N_TOP =1  # how many simultaneous notes to detect
+N_TOP =3  # how many simultaneous notes to detect
 detected_notes = []
 
 for onset in onset_frames:
